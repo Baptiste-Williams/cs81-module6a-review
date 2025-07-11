@@ -37,7 +37,7 @@ Playlist.prototype.listSongs = function() {
 
 // MY Suggestion: Could add a way to remove a specific song by title
 
-// New Method — removes a song by its title from the playlist
+// New Method — removes a song by its "title" from the playlist
 Playlist.prototype.removeSong = function(songTitle) {
   const index = this.songs.indexOf(songTitle);       // Finds song by title
   if (index !== -1) {
